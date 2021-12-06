@@ -16,14 +16,14 @@
 //
 $font-styles: (
   headline: (
-    large: 48_52,
-    medium: 40_44,
-    small: 32_36
+    large: 48_52_semibold,
+    medium: 40_44_semibold,
+    small: 32_36_semibold
   ),
   headline-reduced: (
-    large: 40_44,
-    medium: 32_36,
-    small: 28_32
+    large: 40_44_semibold,
+    medium: 32_36_semibold,
+    small: 28_32_semibold
   ),
   eyebrow: (
     large: 24_28,
@@ -39,14 +39,14 @@ $font-styles: (
     small: 24_32
   ),
   heading-2-reduced: (
-    large: 32_36,
-    medium: 28_32,
-    small: 24_28
+    large: 32_36_semibold,
+    medium: 28_32_semibold,
+    small: 24_28_semibold
   ),
   heading-2: (
-    large: 32_40,
-    medium: 28_36,
-    small: 24_32
+    large: 32_40_semibold,
+    medium: 28_36_semibold,
+    small: 24_32_semibold
   ),
   label: (
     large: 24_28,
@@ -122,9 +122,9 @@ $font-styles: (
   /// custom typography for /documentation
   ///
   documentation-h3: (
-    large: 28_32,
-    medium: 24_28,
-    small: 21_25,
+    large: 28_32_semibold,
+    medium: 24_28_semibold,
+    small: 21_25_semibold,
   ),
   documentation-h4: (
     large: 24_28_semibold,
