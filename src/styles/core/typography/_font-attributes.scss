@@ -36,7 +36,7 @@ $font-attributes: (
   19_27: (size: 19, line-height: 27, letter-spacing: 0.012em),
   19_23: (size: 19, line-height: 23, letter-spacing: 0.012em),
   19_23_semibold: (size: 19, line-height: 23, weight: $font-weight-semibold, letter-spacing: 0.012em),
-  17_25: (size: 17, line-height: 25, letter-spacing: -0.022em),
+  17_25: (size: 17, line-height: 25, letter-spacing: 0),
   17_21: (size: 17, line-height: 21, letter-spacing: -0.022em),
   14_20: (size: 14, line-height: 20, letter-spacing: -0.016em),
   14_18: (size: 14, line-height: 18, letter-spacing: -0.016em),
@@ -52,7 +52,7 @@ $font-attributes: (
   12_18_normal_compact_mono: (size: 12, line-height: 18, letter-spacing: 0, font-family: $font-mono),
   14_21: (size: 14, line-height: 21, letter-spacing: -0.01em),
   15_19: (size: 15, line-height: 19, letter-spacing: -0.014em),
-  15_25_normal_compact_mono: (size: 15, line-height: 25, letter-spacing: -0.027em, font-family: $font-mono),
+  15_25_normal_compact_mono: (size: 15, line-height: 25, letter-spacing: 0.004em, font-family: $font-mono),
   17_25_semibold: (size: 17, line-height: 25, weight: $font-weight-semibold, letter-spacing: -0.022em),
   17_26_semibold: (size: 17, line-height: 26, weight: $font-weight-semibold, letter-spacing: -0.021em),
   17_19_semibold: (size: 17, line-height: 19, weight: $font-weight-semibold, letter-spacing: 0.019em),
@@ -62,8 +62,8 @@ $font-attributes: (
   32_36_semibold: (size: 32, line-height: 36, weight: $font-weight-semibold, letter-spacing: 0.013em),
   56_60_semibold: (size: 56, line-height: 60, weight: $font-weight-semibold, letter-spacing: -0.028em),
   // custom monospace
-  12_22_regular_mono: (size: 12, line-height: 22, letter-spacing: -0.01em, font-family: $font-mono),
-  13_24_regular_mono: (size: 13, line-height: 24, letter-spacing: -0.013em, font-family: $font-mono),
+  12_22_regular_mono: (size: 12, line-height: 22, letter-spacing: 0.01em, font-family: $font-mono),
+  13_24_regular_mono: (size: 13, line-height: 24, letter-spacing: 0.013em, font-family: $font-mono),
   // /navigation
   12_18: (size: 12, line-height: 18, letter-spacing: 0),
   // /tutorials
