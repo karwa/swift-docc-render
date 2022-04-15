@@ -272,6 +272,7 @@ $nesting-spacing: $card-horizontal-spacing + $card-horizontal-spacing-small;
       color: var(--color-figure-gray-secondary);
       font-weight: $font-weight-semibold;
     }
+    text-decoration: underline;
   }
 
   .hover &:not(.is-group) {
