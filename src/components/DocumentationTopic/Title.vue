@@ -47,7 +47,7 @@ export default {
 .title {
   @include font-styles(headline-reduced);
   color: dark-color(figure-gray);
-  margin-bottom: rem(12px);
+  margin-bottom: rem(25px);
 
   .documentation-hero--disabled & {
     color: var(--colors-header-text, var(--color-header-text));
