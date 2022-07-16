@@ -14,7 +14,7 @@ $globalnav-height: 44px;
 $form-focus-size: 4px;
 
 // Border radius
-$border-radius: 4px !default;
+$border-radius: 16px !default;
 $tiny-border-radius: $border-radius !default;
 $large-border-radius: $border-radius !default;
 $big-border-radius: $border-radius !default;
@@ -34,7 +34,7 @@ $topic-link-icon-width: 1.294rem;
 $topic-link-icon-spacing: 1rem;
 
 // Code Block Style Elements
-$code-block-style-elements-padding: 8px 14px !default;
+$code-block-style-elements-padding: 10px 14px !default;
 $code-listing-with-numbers-padding: 14px 0;
 $code-number-padding-left: 8px;
 $code-number-padding: 0 1rem 0 $code-number-padding-left;

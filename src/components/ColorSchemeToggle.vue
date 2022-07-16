@@ -87,7 +87,7 @@ input {
 
 .text {
   border: 1px solid transparent;
-  border-radius: var(--toggle-border-radius-inner, 2px);
+  border-radius: var(--toggle-border-radius-inner, $border-radius - 4);
   color: var(--toggle-color-text);
   display: inline-block;
   text-align: center;
