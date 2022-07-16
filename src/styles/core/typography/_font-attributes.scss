@@ -56,6 +56,12 @@ $font-attributes: (
   40_52_semibold: (size: 40, line-height: 52, weight: $font-weight-semibold),
   32_36: (size: 32, line-height: 36),
   56_60_semibold: (size: 56, line-height: 60, weight: $font-weight-semibold),
+  // karwa: Added fonts for various headings
+  32_36_semibold: (size: 32, line-height: 36, weight: $font-weight-semibold),
+  32_40_semibold: (size: 32, line-height: 40, weight: $font-weight-semibold),
+  28_32_semibold: (size: 28, line-height: 32, weight: $font-weight-semibold),
+  28_36_semibold: (size: 28, line-height: 36, weight: $font-weight-semibold),
+  24_32_semibold: (size: 24, line-height: 32, weight: $font-weight-semibold),
   // custom monospace
   12_22_regular_mono: (size: 12, line-height: 22, font-family: $font-mono),
   13_24_regular_mono: (size: 13, line-height: 24, font-family: $font-mono),
