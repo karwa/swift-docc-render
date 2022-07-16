@@ -16,6 +16,9 @@
     }]"
     :style="styles"
   >
+    <div class="hero-background"
+      v-if="enhanceBackground"
+    />
     <div class="icon">
       <NavigatorLeafIcon
         v-if="enhanceBackground" :type="type"
@@ -65,9 +68,10 @@ export default {
   computed: {
     // get the alias, if any, and fallback to the `teal` color
     color: ({ type }) => HeroColorsMap[TopicTypeAliases[type] || type] || HeroColors.teal,
-    styles: ({ color }) => ({
+    styles: ({ color, enhanceBackground }) => ({
       // use the color or fallback to the gray secondary, if not defined.
       '--accent-color': `var(--color-type-icon-${color}, var(--color-figure-gray-secondary))`,
+      'text-shadow': enhanceBackground ? '-2px 2px 2px black' : '0',
     }),
     // This mapping is necessary to help create a consistent mapping for the
     // following kinds of things, which are represented as different strings
@@ -94,14 +98,13 @@ export default {
 
 $doc-hero-gradient-background: dark-color(fill-tertiary) !default;
 $doc-hero-overlay-background: transparent !default;
-$doc-hero-icon-opacity: 1 !default;
-$doc-hero-icon-color: dark-color(fill-secondary) !default;
+$doc-hero-icon-opacity: 0.85 !default;
+$doc-hero-icon-color: dark-color(figure-gray) !default;
 $doc-hero-icon-spacing: 25px;
 $doc-hero-icon-vertical-spacing: 10px;
 $doc-hero-icon-dimension: 250px;
 
 .documentation-hero {
-  background: dark-color(fill);
   color: dark-color(figure-gray);
   overflow: hidden;
   text-align: left;
@@ -110,13 +113,21 @@ $doc-hero-icon-dimension: 250px;
   // gradient
   &:before {
     content: '';
-    background: $doc-hero-gradient-background;
     position: absolute;
     width: 100%;
     left: 0;
     top: -50%;
     height: 150%;
     right: 0;
+  }
+
+  .hero-background {
+    background: url('~theme/assets/img/hero-bg-module.jpg');
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
   }
 
   // black overlay
