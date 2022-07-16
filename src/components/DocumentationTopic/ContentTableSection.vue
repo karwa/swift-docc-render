@@ -49,6 +49,11 @@ export default {
   &:last-child {
     margin-bottom: 0;
   }
+
+  .section-title {
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--color-grid);
+  }
 }
 
 /deep/ .title {
@@ -68,11 +73,6 @@ export default {
     &-content {
       padding: 0;
     }
-  }
-
-  /deep/ .title {
-    margin: 0 0 $contenttable-spacing-single-side 0;
-    padding-bottom: 0.5rem;
   }
 }
 </style>

@@ -51,8 +51,5 @@ export default {
 .title {
   @include font-styles(heading-2-reduced);
   padding-top: $section-spacing-single-side;
-  border-top-color: var(--color-grid);
-  border-top-style: solid;
-  border-top-width: 1px;
 }
 </style>
